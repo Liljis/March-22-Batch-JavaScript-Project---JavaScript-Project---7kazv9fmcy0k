@@ -1,1 +1,43 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+}
+canvas {
+  position:absolute;
+  margin:auto;
+  top: 0vh;
+  bottom: 0vh;
+  right: 0;
+  left:0;
+  width: 450px;
+  height: 450px;
+}
+label{
+  font-size: 1.5rem;
+  color: #d53a9d
+}
+div{
+  text-align-last: center;
+  border: 2px white solid;
+}
+/*10  30  33  34   48*/
+button {
+  background: none;
+  border-radius:  5px;
+  cursor: pointer;
+  text-decoration: inherit;
+  font-size: 1rem;
+  color: white;
+  padding: 0.7rem 2rem;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+h1{
+  margin-top: auto;
+}
 
